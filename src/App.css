@@ -16,4 +16,49 @@ body {
   width: 483px;
   min-height: 625px;
   border-radius: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.temperature {
+  width: 308px;
+  height: 308px;
+  border-radius: 50%;
+  background-color: #195ba5;
+  border: 2px solid #fff;
+  /* use flexbox to center the text in the temperature div */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.circle {
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+  background-color: #606060;
+  border: 2px solid #fff;
+
+  /* center text in div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  border: 10px solid peru;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  border: 10px solid blue;
 }
